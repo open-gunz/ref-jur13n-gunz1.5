@@ -1,0 +1,563 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=Windows-1252">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: CSCommon, Configuration: _Encrypt_KOR_Release_publish|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "d:\Gunz\Gunz 1.5 Repack by Jur13n #3 (Edited)\Source\CSCommon\_Encrypt_KOR_Release_publish\RSP000001.rsp" with contents
+[
+/O2 /I "./" /I "Include" /I "../SafeUDP/Include" /I "../CML/Include" /I "../RealSpace2/Include" /I "../MAI/Include" /I "../sdk/dx9/Include" /I "../MDatabase/Include" /I "../MCountryFilter/Include" /D "LOCALE_KOREA" /D "WIN32" /D "NDEBUG" /D "_LIB" /D "_XTRAP" /D "_USING_CXR" /D "_MBCS" /FD /EHsc /MT /GS /Yu"stdafx.h" /Fp"_Encrypt_KOR_Release_publish/CSCommonE.pch" /Fo"_Encrypt_KOR_Release_publish/" /Fd"_Encrypt_KOR_Release_publish/vc70.pdb" /W3 /c /Wp64 /Zi /TP
+".\Source\MMatchDebug.cpp"
+".\Source\TestCRC32XORCache.cpp"
+".\Source\MHackingTypes.cpp"
+".\MConnectHistory.cpp"
+".\Source\MMatchStringResManager.cpp"
+".\Source\MBaseStringResManager.cpp"
+".\Source\MNJ_DBAgentClient.cpp"
+".\Source\MMatchLocale.cpp"
+".\Source\MBaseLocale.cpp"
+".\Source\MXmlParser.cpp"
+".\Source\MCommandCommunicator.cpp"
+".\Source\MAsyncProxy.cpp"
+".\Source\MAsyncDBJob_WinTheClanGame.cpp"
+".\Source\MAsyncDBJob_UpdateCharItemInfoData.cpp"
+".\Source\MAsyncDBJob_UpdateCharInfoData.cpp"
+".\Source\MAsyncDBJob_UpdateCharBRInfo.cpp"
+".\Source\MAsyncDBJob_SurvivalMode.cpp"
+".\Source\MAsyncDBJob_RewardCharBR.cpp"
+".\Source\MAsyncDBJob_InsertGamePlayerLog.cpp"
+".\Source\MAsyncDBJob_InsertConnLog.cpp"
+".\Source\MAsyncDBJob_InsertCharBRInfo.cpp"
+".\Source\MAsyncDBJob_GetLoginInfo.cpp"
+".\Source\MAsyncDBJob_GetBRDescription.cpp"
+".\MAsyncDBJob_GetAccountItemList.cpp"
+".\Source\MAsyncDBJob_FriendList.cpp"
+".\Source\MAsyncDBJob_Event.cpp"
+".\Source\MAsyncDBJob_DuelTournament.cpp"
+".\Source\MAsyncDBJob_CountryFilter.cpp"
+".\Source\MAsyncDBJob_CharFinalize.cpp"
+".\Source\MAsyncDBJob_BuyQuestItem.cpp"
+".\Source\MAsyncDBJob.cpp"
+".\Source\MMatchConfig.cpp"
+".\Source\MMatchEventManager.cpp"
+".\MMatchEventFactory.cpp"
+".\Source\MMatchEvent.cpp"
+".\MMatchServer_Survival.cpp"
+".\Source\MMatchServer_Stage.cpp"
+".\Source\MMatchServer_Quest.cpp"
+".\Source\MMatchServer_OnCommand.cpp"
+".\Source\MMatchServer_Login.cpp"
+".\Source\MMatchServer_Ladder.cpp"
+".\Source\MMatchServer_Item.cpp"
+".\Source\MMatchServer_DuelTournament.cpp"
+".\Source\MMatchServer_Clan.cpp"
+".\Source\MMatchServer_Char.cpp"
+".\Source\MMatchServer_Channel.cpp"
+".\Source\MMatchServer_Async.cpp"
+".\MMatchServer_AntiHack.cpp"
+".\Source\MMatchServer_Agent.cpp"
+".\Source\MMatchServer_Admin.cpp"
+".\Source\MMatchServer.cpp"
+".\Source\MVoteMgr.cpp"
+".\Source\MVoteDiscussImpl.cpp"
+".\Source\MSmartRefreshImpl.cpp"
+".\Source\MMatchUtil.cpp"
+".\Source\MMatchTransDataType.cpp"
+".\Source\MMatchStatus.cpp"
+".\Source\MMatchShutdown.cpp"
+".\Source\MMatchShop.cpp"
+".\Source\MMatchSchedule.cpp"
+".\Source\MMatchPremiumIPCache.cpp"
+".\Source\MMatchNotify.cpp"
+".\Source\MMatchGlobal.cpp"
+".\Source\MMatchFriendInfo.cpp"
+".\Source\MMatchClan.cpp"
+".\Source\MMatchCheckLoopTime.cpp"
+".\Source\MMatchChatRoom.cpp"
+".\Source\MMatchChannel.cpp"
+".\Source\MMatchAdmin.cpp"
+".\Source\MMatchDBFilter.cpp"
+".\Source\MMatchDBMgr_AccountItem.cpp"
+".\Source\MMatchDBMgr.cpp"
+".\Source\MMatchCharBRInfo.cpp"
+".\Source\MMatchBRMachine.cpp"
+".\Source\MMatchAccountPenaltyInfo.cpp"
+".\Source\MMatchBuffSummary.cpp"
+".\Source\MMatchBuff.cpp"
+".\Source\MMatchGambleMachine.cpp"
+".\Source\MMatchGambleItem.cpp"
+".\Source\MMatchDBGambleItem.cpp"
+".\Source\MMatchItemFunction.cpp"
+".\Source\MMatchItem.cpp"
+".\MMatchObjectCommandHistory.cpp"
+".\Source\MMatchObjectCharBuffInfo.cpp"
+".\Source\MMatchObject.cpp"
+".\Source\MMatchObjCache.cpp"
+".\Source\MMatchHShield.cpp"
+".\Source\MMatchAntiHack.cpp"
+".\Source\MAgentObject.cpp"
+".\Source\MDuelTournamentFormula.cpp"
+".\Source\MMatchRuleDuelTournament.cpp"
+".\Source\MDuelTournamentTimeChecker.cpp"
+".\Source\MDuelTournamentTicketPicker.cpp"
+".\Source\MDuelTournamentMatchMaker.cpp"
+".\Source\MMatchDuelTournamentMgr.cpp"
+".\Source\MMatchRuleSurvival.cpp"
+".\Source\MMatchRuleQuest.cpp"
+".\Source\MMatchRuleBaseQuest.cpp"
+".\Source\MMatchRuleTraining.cpp"
+".\Source\MMatchRuleGladiator.cpp"
+".\Source\MMatchRuleDuel.cpp"
+".\Source\MMatchRuleDeathMatch.cpp"
+".\Source\MMatchRuleBerserker.cpp"
+".\Source\MMatchRuleAssassinate.cpp"
+".\Source\MMatchRule.cpp"
+".\Source\MMatchGameType.cpp"
+".\Source\MBaseGameType.cpp"
+".\Source\MSurvivalMap.cpp"
+".\Source\MQuestScenario.cpp"
+".\Source\MQuestNPC.cpp"
+".\Source\MQuestMap.cpp"
+".\Source\MBaseQuest.cpp"
+".\Source\MSurvivalRankInfo.cpp"
+".\Source\MSacrificeQItemTable.cpp"
+".\Source\MQuestPlayer.cpp"
+".\Source\MQuestNPCSpawnTrigger.cpp"
+".\Source\MQuestLevelGenerator.cpp"
+".\Source\MQuestLevel.cpp"
+".\Source\MQuestItem.cpp"
+".\Source\MQuestFormula.cpp"
+".\Source\MQuestDropTable.cpp"
+".\Source\MMatchSurvivalGameLog.cpp"
+".\Source\MMatchQuestRound.cpp"
+".\Source\MMatchQuestMonsterGroup.cpp"
+".\Source\MMatchQuestGameLog.cpp"
+".\Source\MMatchQuest.cpp"
+".\Source\MMatchNPCObject.cpp"
+".\Source\MMatchWorldItemDesc.cpp"
+".\Source\MMatchWorldItem.cpp"
+".\Source\MMatchStageSetting.cpp"
+".\Source\MMatchStage.cpp"
+".\Source\MMatchMap.cpp"
+".\Source\MMatchFormula.cpp"
+".\Source\MMatchChannelRule.cpp"
+".\Source\MMatchActiveTrapMgr.cpp"
+".\Source\MBaseChannelRule.cpp"
+".\Source\MTeamGameStrategy.cpp"
+".\Source\MLadderStatistics.cpp"
+".\Source\MLadderPicker.cpp"
+".\Source\MLadderMgr.cpp"
+".\Source\MPacketHShieldCrypter.cpp"
+".\Source\MPacketCrypter.cpp"
+".\Source\MPacket.cpp"
+".\Source\RealCPNet.cpp"
+".\Source\MServer.cpp"
+".\Source\MTCPSocket.cpp"
+".\Source\MMatchClient.cpp"
+".\Source\MCustomClient.cpp"
+".\Source\MClient.cpp"
+".\Source\MChattingFilter.cpp"
+".\Source\MMaster.cpp"
+".\Source\MSharedCommandTable.cpp"
+".\Source\MObject.cpp"
+".\Source\MUID.cpp"
+".\Source\MGridMap.cpp"
+".\Source\MCommandProfiler.cpp"
+".\Source\MCommandParameter.cpp"
+".\Source\MCommandManager.cpp"
+".\Source\MCommandBuilder.cpp"
+".\Source\MCommand.cpp"
+]
+Creating command line "cl.exe @"d:\Gunz\Gunz 1.5 Repack by Jur13n #3 (Edited)\Source\CSCommon\_Encrypt_KOR_Release_publish\RSP000001.rsp" /nologo"
+Creating temporary file "d:\Gunz\Gunz 1.5 Repack by Jur13n #3 (Edited)\Source\CSCommon\_Encrypt_KOR_Release_publish\RSP000002.rsp" with contents
+[
+/O2 /I "./" /I "Include" /I "../SafeUDP/Include" /I "../CML/Include" /I "../RealSpace2/Include" /I "../MAI/Include" /I "../sdk/dx9/Include" /I "../MDatabase/Include" /I "../MCountryFilter/Include" /D "LOCALE_KOREA" /D "WIN32" /D "NDEBUG" /D "_LIB" /D "_XTRAP" /D "_USING_CXR" /D "_MBCS" /FD /EHsc /MT /GS /Yc"stdafx.h" /Fp"_Encrypt_KOR_Release_publish/CSCommonE.pch" /Fo"_Encrypt_KOR_Release_publish/" /Fd"_Encrypt_KOR_Release_publish/vc70.pdb" /W3 /c /Wp64 /Zi /TP
+".\Source\stdafx.cpp"
+]
+Creating command line "cl.exe @"d:\Gunz\Gunz 1.5 Repack by Jur13n #3 (Edited)\Source\CSCommon\_Encrypt_KOR_Release_publish\RSP000002.rsp" /nologo"
+Creating temporary file "d:\Gunz\Gunz 1.5 Repack by Jur13n #3 (Edited)\Source\CSCommon\_Encrypt_KOR_Release_publish\RSP000003.rsp" with contents
+[
+/OUT:"Lib/CSCommonE.lib" /NOLOGO "\Gunz\Gunz 1.5 Repack by Jur13n #3 (Edited)\Source\StringLiteral\Release\StringLiteral.lib"
+".\HShield\HsCryptLib.lib"
+".\_Encrypt_KOR_Release_publish\MCommand.obj"
+".\_Encrypt_KOR_Release_publish\MCommandBuilder.obj"
+".\_Encrypt_KOR_Release_publish\MCommandManager.obj"
+".\_Encrypt_KOR_Release_publish\MCommandParameter.obj"
+".\_Encrypt_KOR_Release_publish\MCommandProfiler.obj"
+".\_Encrypt_KOR_Release_publish\MGridMap.obj"
+".\_Encrypt_KOR_Release_publish\MUID.obj"
+".\_Encrypt_KOR_Release_publish\MObject.obj"
+".\_Encrypt_KOR_Release_publish\MSharedCommandTable.obj"
+".\_Encrypt_KOR_Release_publish\MMaster.obj"
+".\_Encrypt_KOR_Release_publish\MChattingFilter.obj"
+".\_Encrypt_KOR_Release_publish\MClient.obj"
+".\_Encrypt_KOR_Release_publish\MCustomClient.obj"
+".\_Encrypt_KOR_Release_publish\MMatchClient.obj"
+".\_Encrypt_KOR_Release_publish\MTCPSocket.obj"
+".\_Encrypt_KOR_Release_publish\MServer.obj"
+".\_Encrypt_KOR_Release_publish\RealCPNet.obj"
+".\_Encrypt_KOR_Release_publish\MPacket.obj"
+".\_Encrypt_KOR_Release_publish\MPacketCrypter.obj"
+".\_Encrypt_KOR_Release_publish\MPacketHShieldCrypter.obj"
+".\_Encrypt_KOR_Release_publish\MLadderMgr.obj"
+".\_Encrypt_KOR_Release_publish\MLadderPicker.obj"
+".\_Encrypt_KOR_Release_publish\MLadderStatistics.obj"
+".\_Encrypt_KOR_Release_publish\MTeamGameStrategy.obj"
+".\_Encrypt_KOR_Release_publish\MBaseChannelRule.obj"
+".\_Encrypt_KOR_Release_publish\MMatchActiveTrapMgr.obj"
+".\_Encrypt_KOR_Release_publish\MMatchChannelRule.obj"
+".\_Encrypt_KOR_Release_publish\MMatchFormula.obj"
+".\_Encrypt_KOR_Release_publish\MMatchMap.obj"
+".\_Encrypt_KOR_Release_publish\MMatchStage.obj"
+".\_Encrypt_KOR_Release_publish\MMatchStageSetting.obj"
+".\_Encrypt_KOR_Release_publish\MMatchWorldItem.obj"
+".\_Encrypt_KOR_Release_publish\MMatchWorldItemDesc.obj"
+".\_Encrypt_KOR_Release_publish\MMatchNPCObject.obj"
+".\_Encrypt_KOR_Release_publish\MMatchQuest.obj"
+".\_Encrypt_KOR_Release_publish\MMatchQuestGameLog.obj"
+".\_Encrypt_KOR_Release_publish\MMatchQuestMonsterGroup.obj"
+".\_Encrypt_KOR_Release_publish\MMatchQuestRound.obj"
+".\_Encrypt_KOR_Release_publish\MMatchSurvivalGameLog.obj"
+".\_Encrypt_KOR_Release_publish\MQuestDropTable.obj"
+".\_Encrypt_KOR_Release_publish\MQuestFormula.obj"
+".\_Encrypt_KOR_Release_publish\MQuestItem.obj"
+".\_Encrypt_KOR_Release_publish\MQuestLevel.obj"
+".\_Encrypt_KOR_Release_publish\MQuestLevelGenerator.obj"
+".\_Encrypt_KOR_Release_publish\MQuestNPCSpawnTrigger.obj"
+".\_Encrypt_KOR_Release_publish\MQuestPlayer.obj"
+".\_Encrypt_KOR_Release_publish\MSacrificeQItemTable.obj"
+".\_Encrypt_KOR_Release_publish\MSurvivalRankInfo.obj"
+".\_Encrypt_KOR_Release_publish\MBaseQuest.obj"
+".\_Encrypt_KOR_Release_publish\MQuestMap.obj"
+".\_Encrypt_KOR_Release_publish\MQuestNPC.obj"
+".\_Encrypt_KOR_Release_publish\MQuestScenario.obj"
+".\_Encrypt_KOR_Release_publish\MSurvivalMap.obj"
+".\_Encrypt_KOR_Release_publish\MBaseGameType.obj"
+".\_Encrypt_KOR_Release_publish\MMatchGameType.obj"
+".\_Encrypt_KOR_Release_publish\MMatchRule.obj"
+".\_Encrypt_KOR_Release_publish\MMatchRuleAssassinate.obj"
+".\_Encrypt_KOR_Release_publish\MMatchRuleBerserker.obj"
+".\_Encrypt_KOR_Release_publish\MMatchRuleDeathMatch.obj"
+".\_Encrypt_KOR_Release_publish\MMatchRuleDuel.obj"
+".\_Encrypt_KOR_Release_publish\MMatchRuleGladiator.obj"
+".\_Encrypt_KOR_Release_publish\MMatchRuleTraining.obj"
+".\_Encrypt_KOR_Release_publish\MMatchRuleBaseQuest.obj"
+".\_Encrypt_KOR_Release_publish\MMatchRuleQuest.obj"
+".\_Encrypt_KOR_Release_publish\MMatchRuleSurvival.obj"
+".\_Encrypt_KOR_Release_publish\MMatchDuelTournamentMgr.obj"
+".\_Encrypt_KOR_Release_publish\MDuelTournamentMatchMaker.obj"
+".\_Encrypt_KOR_Release_publish\MDuelTournamentTicketPicker.obj"
+".\_Encrypt_KOR_Release_publish\MDuelTournamentTimeChecker.obj"
+".\_Encrypt_KOR_Release_publish\MMatchRuleDuelTournament.obj"
+".\_Encrypt_KOR_Release_publish\MDuelTournamentFormula.obj"
+".\_Encrypt_KOR_Release_publish\MAgentObject.obj"
+".\_Encrypt_KOR_Release_publish\MMatchAntiHack.obj"
+".\_Encrypt_KOR_Release_publish\MMatchHShield.obj"
+".\_Encrypt_KOR_Release_publish\MMatchObjCache.obj"
+".\_Encrypt_KOR_Release_publish\MMatchObject.obj"
+".\_Encrypt_KOR_Release_publish\MMatchObjectCharBuffInfo.obj"
+".\_Encrypt_KOR_Release_publish\MMatchObjectCommandHistory.obj"
+".\_Encrypt_KOR_Release_publish\MMatchItem.obj"
+".\_Encrypt_KOR_Release_publish\MMatchItemFunction.obj"
+".\_Encrypt_KOR_Release_publish\MMatchDBGambleItem.obj"
+".\_Encrypt_KOR_Release_publish\MMatchGambleItem.obj"
+".\_Encrypt_KOR_Release_publish\MMatchGambleMachine.obj"
+".\_Encrypt_KOR_Release_publish\MMatchBuff.obj"
+".\_Encrypt_KOR_Release_publish\MMatchBuffSummary.obj"
+".\_Encrypt_KOR_Release_publish\MMatchAccountPenaltyInfo.obj"
+".\_Encrypt_KOR_Release_publish\MMatchBRMachine.obj"
+".\_Encrypt_KOR_Release_publish\MMatchCharBRInfo.obj"
+".\_Encrypt_KOR_Release_publish\MMatchDBMgr.obj"
+".\_Encrypt_KOR_Release_publish\MMatchDBMgr_AccountItem.obj"
+".\_Encrypt_KOR_Release_publish\MMatchDBFilter.obj"
+".\_Encrypt_KOR_Release_publish\MMatchAdmin.obj"
+".\_Encrypt_KOR_Release_publish\MMatchChannel.obj"
+".\_Encrypt_KOR_Release_publish\MMatchChatRoom.obj"
+".\_Encrypt_KOR_Release_publish\MMatchCheckLoopTime.obj"
+".\_Encrypt_KOR_Release_publish\MMatchClan.obj"
+".\_Encrypt_KOR_Release_publish\MMatchFriendInfo.obj"
+".\_Encrypt_KOR_Release_publish\MMatchGlobal.obj"
+".\_Encrypt_KOR_Release_publish\MMatchNotify.obj"
+".\_Encrypt_KOR_Release_publish\MMatchPremiumIPCache.obj"
+".\_Encrypt_KOR_Release_publish\MMatchSchedule.obj"
+".\_Encrypt_KOR_Release_publish\MMatchShop.obj"
+".\_Encrypt_KOR_Release_publish\MMatchShutdown.obj"
+".\_Encrypt_KOR_Release_publish\MMatchStatus.obj"
+".\_Encrypt_KOR_Release_publish\MMatchTransDataType.obj"
+".\_Encrypt_KOR_Release_publish\MMatchUtil.obj"
+".\_Encrypt_KOR_Release_publish\MSmartRefreshImpl.obj"
+".\_Encrypt_KOR_Release_publish\MVoteDiscussImpl.obj"
+".\_Encrypt_KOR_Release_publish\MVoteMgr.obj"
+".\_Encrypt_KOR_Release_publish\MMatchServer.obj"
+".\_Encrypt_KOR_Release_publish\MMatchServer_Admin.obj"
+".\_Encrypt_KOR_Release_publish\MMatchServer_Agent.obj"
+".\_Encrypt_KOR_Release_publish\MMatchServer_AntiHack.obj"
+".\_Encrypt_KOR_Release_publish\MMatchServer_Async.obj"
+".\_Encrypt_KOR_Release_publish\MMatchServer_Channel.obj"
+".\_Encrypt_KOR_Release_publish\MMatchServer_Char.obj"
+".\_Encrypt_KOR_Release_publish\MMatchServer_Clan.obj"
+".\_Encrypt_KOR_Release_publish\MMatchServer_DuelTournament.obj"
+".\_Encrypt_KOR_Release_publish\MMatchServer_Item.obj"
+".\_Encrypt_KOR_Release_publish\MMatchServer_Ladder.obj"
+".\_Encrypt_KOR_Release_publish\MMatchServer_Login.obj"
+".\_Encrypt_KOR_Release_publish\MMatchServer_OnCommand.obj"
+".\_Encrypt_KOR_Release_publish\MMatchServer_Quest.obj"
+".\_Encrypt_KOR_Release_publish\MMatchServer_Stage.obj"
+".\_Encrypt_KOR_Release_publish\MMatchServer_Survival.obj"
+".\_Encrypt_KOR_Release_publish\MMatchEvent.obj"
+".\_Encrypt_KOR_Release_publish\MMatchEventFactory.obj"
+".\_Encrypt_KOR_Release_publish\MMatchEventManager.obj"
+".\_Encrypt_KOR_Release_publish\MMatchConfig.obj"
+".\_Encrypt_KOR_Release_publish\MAsyncDBJob.obj"
+".\_Encrypt_KOR_Release_publish\MAsyncDBJob_BuyQuestItem.obj"
+".\_Encrypt_KOR_Release_publish\MAsyncDBJob_CharFinalize.obj"
+".\_Encrypt_KOR_Release_publish\MAsyncDBJob_CountryFilter.obj"
+".\_Encrypt_KOR_Release_publish\MAsyncDBJob_DuelTournament.obj"
+".\_Encrypt_KOR_Release_publish\MAsyncDBJob_Event.obj"
+".\_Encrypt_KOR_Release_publish\MAsyncDBJob_FriendList.obj"
+".\_Encrypt_KOR_Release_publish\MAsyncDBJob_GetAccountItemList.obj"
+".\_Encrypt_KOR_Release_publish\MAsyncDBJob_GetBRDescription.obj"
+".\_Encrypt_KOR_Release_publish\MAsyncDBJob_GetLoginInfo.obj"
+".\_Encrypt_KOR_Release_publish\MAsyncDBJob_InsertCharBRInfo.obj"
+".\_Encrypt_KOR_Release_publish\MAsyncDBJob_InsertConnLog.obj"
+".\_Encrypt_KOR_Release_publish\MAsyncDBJob_InsertGamePlayerLog.obj"
+".\_Encrypt_KOR_Release_publish\MAsyncDBJob_RewardCharBR.obj"
+".\_Encrypt_KOR_Release_publish\MAsyncDBJob_SurvivalMode.obj"
+".\_Encrypt_KOR_Release_publish\MAsyncDBJob_UpdateCharBRInfo.obj"
+".\_Encrypt_KOR_Release_publish\MAsyncDBJob_UpdateCharInfoData.obj"
+".\_Encrypt_KOR_Release_publish\MAsyncDBJob_UpdateCharItemInfoData.obj"
+".\_Encrypt_KOR_Release_publish\MAsyncDBJob_WinTheClanGame.obj"
+".\_Encrypt_KOR_Release_publish\MAsyncProxy.obj"
+".\_Encrypt_KOR_Release_publish\MCommandCommunicator.obj"
+".\_Encrypt_KOR_Release_publish\MXmlParser.obj"
+".\_Encrypt_KOR_Release_publish\MBaseLocale.obj"
+".\_Encrypt_KOR_Release_publish\MMatchLocale.obj"
+".\_Encrypt_KOR_Release_publish\MNJ_DBAgentClient.obj"
+".\_Encrypt_KOR_Release_publish\MBaseStringResManager.obj"
+".\_Encrypt_KOR_Release_publish\MMatchStringResManager.obj"
+".\_Encrypt_KOR_Release_publish\MConnectHistory.obj"
+".\_Encrypt_KOR_Release_publish\MHackingTypes.obj"
+".\_Encrypt_KOR_Release_publish\TestCRC32XORCache.obj"
+".\_Encrypt_KOR_Release_publish\MMatchDebug.obj"
+".\_Encrypt_KOR_Release_publish\stdafx.obj"
+]
+Creating command line "lib.exe @"d:\Gunz\Gunz 1.5 Repack by Jur13n #3 (Edited)\Source\CSCommon\_Encrypt_KOR_Release_publish\RSP000003.rsp""
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+stdafx.cpp
+ WINVER not defined. Defaulting to 0x0501 (Windows XP and Windows .NET Server)
+Compiling...
+MMatchDebug.cpp
+TestCRC32XORCache.cpp
+MHackingTypes.cpp
+MConnectHistory.cpp
+MMatchStringResManager.cpp
+MBaseStringResManager.cpp
+MNJ_DBAgentClient.cpp
+MMatchLocale.cpp
+MBaseLocale.cpp
+MXmlParser.cpp
+MCommandCommunicator.cpp
+MAsyncProxy.cpp
+MAsyncDBJob_WinTheClanGame.cpp
+MAsyncDBJob_UpdateCharItemInfoData.cpp
+MAsyncDBJob_UpdateCharInfoData.cpp
+MAsyncDBJob_UpdateCharBRInfo.cpp
+MAsyncDBJob_SurvivalMode.cpp
+MAsyncDBJob_RewardCharBR.cpp
+MAsyncDBJob_InsertGamePlayerLog.cpp
+MAsyncDBJob_InsertConnLog.cpp
+Generating Code...
+Compiling...
+MAsyncDBJob_InsertCharBRInfo.cpp
+MAsyncDBJob_GetLoginInfo.cpp
+MAsyncDBJob_GetBRDescription.cpp
+MAsyncDBJob_GetAccountItemList.cpp
+MAsyncDBJob_FriendList.cpp
+MAsyncDBJob_Event.cpp
+MAsyncDBJob_DuelTournament.cpp
+MAsyncDBJob_CountryFilter.cpp
+MAsyncDBJob_CharFinalize.cpp
+MAsyncDBJob_BuyQuestItem.cpp
+MAsyncDBJob.cpp
+MMatchConfig.cpp
+Source\MMatchConfig.cpp(258) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Source\MMatchConfig.cpp(311) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Source\MMatchConfig.cpp(315) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MMatchEventManager.cpp
+MMatchEventFactory.cpp
+MMatchEvent.cpp
+MMatchServer_Survival.cpp
+MMatchServer_Stage.cpp
+d:\Gunz\Gunz 1.5 Repack by Jur13n #3 (Edited)\Source\CSCommon\Include\MMatchRuleDeathMatch.h(78) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+d:\Gunz\Gunz 1.5 Repack by Jur13n #3 (Edited)\Source\CSCommon\Include\MMatchRuleDeathMatch.h(79) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MMatchServer_Quest.cpp
+MMatchServer_OnCommand.cpp
+MMatchServer_Login.cpp
+Generating Code...
+Compiling...
+MMatchServer_Ladder.cpp
+MMatchServer_Item.cpp
+MMatchServer_DuelTournament.cpp
+MMatchServer_Clan.cpp
+MMatchServer_Char.cpp
+MMatchServer_Channel.cpp
+MMatchServer_Async.cpp
+MMatchServer_AntiHack.cpp
+MMatchServer_Agent.cpp
+MMatchServer_Admin.cpp
+MMatchServer.cpp
+Source\MMatchServer.cpp(2137) : warning C4172: returning address of local variable or temporary
+MVoteMgr.cpp
+MVoteDiscussImpl.cpp
+MSmartRefreshImpl.cpp
+MMatchUtil.cpp
+MMatchTransDataType.cpp
+MMatchStatus.cpp
+MMatchShutdown.cpp
+MMatchShop.cpp
+MMatchSchedule.cpp
+Generating Code...
+Compiling...
+MMatchPremiumIPCache.cpp
+MMatchNotify.cpp
+MMatchGlobal.cpp
+MMatchFriendInfo.cpp
+MMatchClan.cpp
+MMatchCheckLoopTime.cpp
+MMatchChatRoom.cpp
+MMatchChannel.cpp
+MMatchAdmin.cpp
+MMatchDBFilter.cpp
+MMatchDBMgr_AccountItem.cpp
+MMatchDBMgr.cpp
+MMatchCharBRInfo.cpp
+Source\MMatchCharBRInfo.cpp(65) : warning C4018: '>' : signed/unsigned mismatch
+MMatchBRMachine.cpp
+MMatchAccountPenaltyInfo.cpp
+MMatchBuffSummary.cpp
+MMatchBuff.cpp
+MMatchGambleMachine.cpp
+MMatchGambleItem.cpp
+MMatchDBGambleItem.cpp
+Generating Code...
+Compiling...
+MMatchItemFunction.cpp
+MMatchItem.cpp
+MMatchObjectCommandHistory.cpp
+MMatchObjectCharBuffInfo.cpp
+MMatchObject.cpp
+Source\MMatchObject.cpp(635) : warning C4018: '>' : signed/unsigned mismatch
+MMatchObjCache.cpp
+MMatchHShield.cpp
+MMatchAntiHack.cpp
+MAgentObject.cpp
+MDuelTournamentFormula.cpp
+MMatchRuleDuelTournament.cpp
+MDuelTournamentTimeChecker.cpp
+MDuelTournamentTicketPicker.cpp
+MDuelTournamentMatchMaker.cpp
+MMatchDuelTournamentMgr.cpp
+MMatchRuleSurvival.cpp
+MMatchRuleQuest.cpp
+MMatchRuleBaseQuest.cpp
+MMatchRuleTraining.cpp
+d:\Gunz\Gunz 1.5 Repack by Jur13n #3 (Edited)\Source\CSCommon\Include\MMatchRuleDeathMatch.h(78) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+d:\Gunz\Gunz 1.5 Repack by Jur13n #3 (Edited)\Source\CSCommon\Include\MMatchRuleDeathMatch.h(79) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MMatchRuleGladiator.cpp
+d:\Gunz\Gunz 1.5 Repack by Jur13n #3 (Edited)\Source\CSCommon\Include\MMatchRuleDeathMatch.h(78) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+d:\Gunz\Gunz 1.5 Repack by Jur13n #3 (Edited)\Source\CSCommon\Include\MMatchRuleDeathMatch.h(79) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Generating Code...
+Compiling...
+MMatchRuleDuel.cpp
+MMatchRuleDeathMatch.cpp
+Include\MMatchRuleDeathMatch.h(78) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Include\MMatchRuleDeathMatch.h(79) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MMatchRuleBerserker.cpp
+d:\Gunz\Gunz 1.5 Repack by Jur13n #3 (Edited)\Source\CSCommon\Include\MMatchRuleDeathMatch.h(78) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+d:\Gunz\Gunz 1.5 Repack by Jur13n #3 (Edited)\Source\CSCommon\Include\MMatchRuleDeathMatch.h(79) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MMatchRuleAssassinate.cpp
+d:\Gunz\Gunz 1.5 Repack by Jur13n #3 (Edited)\Source\CSCommon\Include\MMatchRuleDeathMatch.h(78) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+d:\Gunz\Gunz 1.5 Repack by Jur13n #3 (Edited)\Source\CSCommon\Include\MMatchRuleDeathMatch.h(79) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MMatchRule.cpp
+MMatchGameType.cpp
+MBaseGameType.cpp
+MSurvivalMap.cpp
+MQuestScenario.cpp
+MQuestNPC.cpp
+MQuestMap.cpp
+MBaseQuest.cpp
+MSurvivalRankInfo.cpp
+MSacrificeQItemTable.cpp
+MQuestPlayer.cpp
+MQuestNPCSpawnTrigger.cpp
+MQuestLevelGenerator.cpp
+MQuestLevel.cpp
+MQuestItem.cpp
+MQuestFormula.cpp
+Generating Code...
+Compiling...
+MQuestDropTable.cpp
+MMatchSurvivalGameLog.cpp
+MMatchQuestRound.cpp
+MMatchQuestMonsterGroup.cpp
+MMatchQuestGameLog.cpp
+MMatchQuest.cpp
+MMatchNPCObject.cpp
+MMatchWorldItemDesc.cpp
+MMatchWorldItem.cpp
+Include\MMatchRuleDeathMatch.h(78) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Include\MMatchRuleDeathMatch.h(79) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MMatchStageSetting.cpp
+MMatchStage.cpp
+Include\MMatchRuleDeathMatch.h(78) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Include\MMatchRuleDeathMatch.h(79) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MMatchMap.cpp
+MMatchFormula.cpp
+MMatchChannelRule.cpp
+MMatchActiveTrapMgr.cpp
+Source\MMatchActiveTrapMgr.cpp(114) : warning C4018: '>' : signed/unsigned mismatch
+MBaseChannelRule.cpp
+MTeamGameStrategy.cpp
+MLadderStatistics.cpp
+MLadderPicker.cpp
+MLadderMgr.cpp
+Generating Code...
+Compiling...
+MPacketHShieldCrypter.cpp
+MPacketCrypter.cpp
+MPacket.cpp
+RealCPNet.cpp
+MServer.cpp
+MTCPSocket.cpp
+MMatchClient.cpp
+MCustomClient.cpp
+MClient.cpp
+MChattingFilter.cpp
+MMaster.cpp
+MSharedCommandTable.cpp
+MObject.cpp
+MUID.cpp
+MGridMap.cpp
+MCommandProfiler.cpp
+MCommandParameter.cpp
+Source\MCommandParameter.cpp(401) : warning C4018: '>' : signed/unsigned mismatch
+MCommandManager.cpp
+MCommandBuilder.cpp
+MCommand.cpp
+Generating Code...
+Creating library...
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://d:\Gunz\Gunz 1.5 Repack by Jur13n #3 (Edited)\Source\CSCommon\_Encrypt_KOR_Release_publish\BuildLog.htm"
+CSCommon - 0 error(s), 24 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

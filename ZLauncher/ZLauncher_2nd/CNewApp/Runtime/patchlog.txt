@@ -1,0 +1,95 @@
+Log start : Wed Nov 14 18:59:07 2012
+
+Current Directory : C:\Users\Ho-Oh\Desktop\Gunz\Source\ZLauncher\ZLauncher_2nd\CNewApp\Runtime
+18:59:07:875   [APP] OS version : Service Pack 1 (Build 7601)
+18:59:07:904   [APP] Window created successfully.
+18:59:10:083   [ZUpdate] Create.
+18:59:10:084   [ZFileTransfer] Create.
+18:59:10:084   [ZFileTransfer] Create successfully complete.
+18:59:10:084   [ZFileTransfer] Open connection.
+18:59:10:084   [ZFileTransfer] Open connection successfully complete.
+18:59:10:084   [ZFileTransfer] Change directory.
+18:59:10:085   [ZFileTransfer] Change directory successfully complete.
+18:59:10:085   [ZUpdate] Create successfully compete.
+18:59:10:094   [APP] Download patch info file
+18:59:10:095   [ZUpdate] Start update.
+18:59:10:095   [ZFileTransfer] Download file : ./patch.xml  to  ./patch.xml
+18:59:10:214   [ZFileTransfer] Download successfully complete.
+18:59:10:214   [ZUpdate] Get update info.
+18:59:10:282   [ZUpdate] Get update info successfully complete.
+18:59:10:283   [ZUpdate] Check valid from patch list.
+18:59:10:283   [ZUpdatePatchNode] Needs to update : ./bdcap32.dll (not exist)
+18:59:10:283   [ZUpdatePatchNode] Needs to update : ./bdcore32.dll (not exist)
+18:59:10:283   [ZUpdatePatchNode] Needs to update : ./dbghelp.dll (not exist)
+18:59:10:283   [ZUpdatePatchNode] Needs to update : ./fmod.dll (not exist)
+18:59:10:283   [ZUpdatePatchNode] Needs to update : ./gdiplus.dll (not exist)
+18:59:10:284   [ZUpdatePatchNode] Needs to update : ./Gunz.exe (not exist)
+18:59:10:284   [ZUpdatePatchNode] Needs to update : ./msvcp71.dll (not exist)
+18:59:10:284   [ZUpdatePatchNode] Needs to update : ./msvcr71.dll (not exist)
+18:59:10:284   [ZUpdatePatchNode] Needs to update : ./system.mrs (not exist)
+18:59:10:284   [ZUpdate] Check valid from patch list successfully complete.
+18:59:10:284   [ZUpdate] + Total patch file count : 9
+18:59:10:284   [ZUpdate] + Total patch file size : 12571831 bytes
+18:59:10:285   [APP] Exist patch file(s)
+18:59:10:286   [APP] Start file updating...
+18:59:10:289   [ZUpdate] Patch files.
+18:59:10:289   [ZFileTransfer] Download file : ./bdcap32.dll  to  C:\Users\Ho-Oh\Desktop\Gunz\Source\ZLauncher\ZLauncher_2nd\CNewApp\Runtime\PATCH\bdcap32.dll_
+18:59:10:405   [ZFileTransfer] Download successfully complete.
+18:59:10:405   [ZUpdate] Successfully download '.\PATCH\bdcap32.dll_'
+18:59:10:405   [ZFileTransfer] Download file : ./bdcore32.dll  to  C:\Users\Ho-Oh\Desktop\Gunz\Source\ZLauncher\ZLauncher_2nd\CNewApp\Runtime\PATCH\bdcore32.dll_
+18:59:12:016   [ZFileTransfer] Download successfully complete.
+18:59:12:016   [ZUpdate] Successfully download '.\PATCH\bdcore32.dll_'
+18:59:12:016   [ZFileTransfer] Download file : ./dbghelp.dll  to  C:\Users\Ho-Oh\Desktop\Gunz\Source\ZLauncher\ZLauncher_2nd\CNewApp\Runtime\PATCH\dbghelp.dll_
+18:59:12:113   [ZFileTransfer] Download successfully complete.
+18:59:12:114   [ZUpdate] Successfully download '.\PATCH\dbghelp.dll_'
+18:59:12:114   [ZFileTransfer] Download file : ./fmod.dll  to  C:\Users\Ho-Oh\Desktop\Gunz\Source\ZLauncher\ZLauncher_2nd\CNewApp\Runtime\PATCH\fmod.dll_
+18:59:12:222   [ZFileTransfer] Download successfully complete.
+18:59:12:223   [ZUpdate] Successfully download '.\PATCH\fmod.dll_'
+18:59:12:223   [ZFileTransfer] Download file : ./gdiplus.dll  to  C:\Users\Ho-Oh\Desktop\Gunz\Source\ZLauncher\ZLauncher_2nd\CNewApp\Runtime\PATCH\gdiplus.dll_
+18:59:12:711   [ZFileTransfer] Download successfully complete.
+18:59:12:711   [ZUpdate] Successfully download '.\PATCH\gdiplus.dll_'
+18:59:12:711   [ZFileTransfer] Download file : ./Gunz.exe  to  C:\Users\Ho-Oh\Desktop\Gunz\Source\ZLauncher\ZLauncher_2nd\CNewApp\Runtime\PATCH\Gunz.exe_
+18:59:13:956   [ZFileTransfer] Download successfully complete.
+18:59:13:956   [ZUpdate] Successfully download '.\PATCH\Gunz.exe_'
+18:59:13:957   [ZFileTransfer] Download file : ./msvcp71.dll  to  C:\Users\Ho-Oh\Desktop\Gunz\Source\ZLauncher\ZLauncher_2nd\CNewApp\Runtime\PATCH\msvcp71.dll_
+18:59:14:149   [ZFileTransfer] Download successfully complete.
+18:59:14:149   [ZUpdate] Successfully download '.\PATCH\msvcp71.dll_'
+18:59:14:150   [ZFileTransfer] Download file : ./msvcr71.dll  to  C:\Users\Ho-Oh\Desktop\Gunz\Source\ZLauncher\ZLauncher_2nd\CNewApp\Runtime\PATCH\msvcr71.dll_
+18:59:14:225   [ZFileTransfer] Download successfully complete.
+18:59:14:225   [ZUpdate] Successfully download '.\PATCH\msvcr71.dll_'
+18:59:14:225   [ZFileTransfer] Download file : ./system.mrs  to  C:\Users\Ho-Oh\Desktop\Gunz\Source\ZLauncher\ZLauncher_2nd\CNewApp\Runtime\PATCH\system.mrs_
+18:59:14:230   [ZFileTransfer] ERROR : File not found.
+18:59:14:231   [ZFileTransfer] ERROR : Failed download : ./system.mrs
+18:59:14:231   [ZUpdate] WARNNING : Retry patch file : .\PATCH\system.mrs_ , 1 retry
+18:59:14:231   [ZFileTransfer] Download file : ./system.mrs  to  C:\Users\Ho-Oh\Desktop\Gunz\Source\ZLauncher\ZLauncher_2nd\CNewApp\Runtime\PATCH\system.mrs_
+18:59:14:244   [ZFileTransfer] ERROR : File not found.
+18:59:14:245   [ZFileTransfer] ERROR : Failed download : ./system.mrs
+18:59:14:248   [ZUpdate] ERROR : Fail to download file '.\PATCH\system.mrs_'
+18:59:14:248   [ZUpdate] Patch files successfully complete.
+18:59:14:248   [ZUpdate] Move patch files.
+18:59:14:484   [ZUpdate] Copy patch file from '.\PATCH\bdcap32.dll_'  to  '.\bdcap32.dll'
+18:59:20:860   [APP] Update canceled...
+18:59:20:860   [ZUpdate] Stop update.
+18:59:20:861   [ZUpdate] Stop update successfully complete.
+18:59:21:132   [ZUpdate] Copy patch file from '.\PATCH\bdcore32.dll_'  to  '.\bdcore32.dll'
+18:59:25:436   [APP] Update canceled...
+18:59:25:436   [ZUpdate] Stop update.
+18:59:25:436   [ZUpdate] Stop update successfully complete.
+18:59:28:983   [APP] Update canceled...
+18:59:28:984   [ZUpdate] Stop update.
+18:59:28:985   [ZUpdate] Stop update successfully complete.
+18:59:40:806   [ZUpdate] Copy patch file from '.\PATCH\dbghelp.dll_'  to  '.\dbghelp.dll'
+18:59:44:845   [ZUpdate] Copy patch file from '.\PATCH\fmod.dll_'  to  '.\fmod.dll'
+18:59:51:115   [ZUpdate] Copy patch file from '.\PATCH\gdiplus.dll_'  to  '.\gdiplus.dll'
+19:00:20:901   [ZUpdate] Copy patch file from '.\PATCH\Gunz.exe_'  to  '.\Gunz.exe'
+19:00:40:637   [ZUpdate] Copy patch file from '.\PATCH\msvcp71.dll_'  to  '.\msvcp71.dll'
+19:00:46:291   [ZUpdate] Copy patch file from '.\PATCH\msvcr71.dll_'  to  '.\msvcr71.dll'
+19:00:47:280   [ZUpdate] Move patch files successfully complete.
+19:00:47:280   [ZUpdate] Start update successfully complete.
+19:00:47:281   [APP] Update complete.
+19:00:47:292   [ZUpdate] Destroy.
+19:00:47:292   [ZFileTransfer] Destroy.
+19:00:47:292   [ZFileTransfer] Close connection.
+19:00:47:293   [ZFileTransfer] Close connection successfully complete.
+19:00:47:293   [ZFileTransfer] Destroy successfly complete.
+19:00:47:293   [ZUpdate] Destroy successfully complete.

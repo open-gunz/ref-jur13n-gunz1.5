@@ -1,0 +1,95 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=Windows-1252">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: NewApp, Configuration: Release_Brazil|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "c:\Users\Ho-Oh\Desktop\Gunz\Gunz 1.5 Repack by Jur13n #1 (Edited)\Source\ZLauncher\ZLauncher_2nd\CNewApp\Release\BAT000001.bat" with contents
+[
+@echo off
+.\res\copy_res.bat brz
+if errorlevel 1 goto VCReportError
+goto VCEnd
+:VCReportError
+echo Project : error PRJ0019: A tool returned an error code from "Performing Pre-Build Event..."
+exit 1
+:VCEnd
+]
+Creating command line ""c:\Users\Ho-Oh\Desktop\Gunz\Gunz 1.5 Repack by Jur13n #1 (Edited)\Source\ZLauncher\ZLauncher_2nd\CNewApp\Release\BAT000001.bat""
+Creating temporary file "c:\Users\Ho-Oh\Desktop\Gunz\Gunz 1.5 Repack by Jur13n #1 (Edited)\Source\ZLauncher\ZLauncher_2nd\CNewApp\Release\RSP000002.rsp" with contents
+[
+/O2 /I "../../../cml/include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "LOCALE_BRAZIL" /D "_MBCS" /FD /EHsc /MT /Yu"stdafx.h" /Fp".\Release/GunzLauncher.pch" /Fo".\Release/" /Fd".\Release/" /W3 /c /TP
+".\NewAppDlg.cpp"
+]
+Creating command line "cl.exe @"c:\Users\Ho-Oh\Desktop\Gunz\Gunz 1.5 Repack by Jur13n #1 (Edited)\Source\ZLauncher\ZLauncher_2nd\CNewApp\Release\RSP000002.rsp" /nologo"
+Creating temporary file "c:\Users\Ho-Oh\Desktop\Gunz\Gunz 1.5 Repack by Jur13n #1 (Edited)\Source\ZLauncher\ZLauncher_2nd\CNewApp\Release\RSP000003.rsp" with contents
+[
+/OUT:".\Runtime/GunzLauncher.exe" /INCREMENTAL:NO /NOLOGO /DELAYLOAD:"OleAcc.dll" /PDB:".\Release/GunzLauncher.pdb" /SUBSYSTEM:WINDOWS /MACHINE:X86 msimg32.lib winmm.lib Version.lib DelayImp.lib "\Users\Ho-Oh\Desktop\Gunz\Gunz 1.5 Repack by Jur13n #1 (Edited)\Source\cml\lib\cml.lib" DelayImp.lib
+"\Users\Ho-Oh\Desktop\Gunz\Gunz 1.5 Repack by Jur13n #1 (Edited)\Source\Gunz\nhn\HanAuthForClient.lib"
+"\Users\Ho-Oh\Desktop\Gunz\Gunz 1.5 Repack by Jur13n #1 (Edited)\Source\Gunz\nhn\HanAuthForClientD.lib"
+"\Users\Ho-Oh\Desktop\Gunz\Gunz 1.5 Repack by Jur13n #1 (Edited)\Source\Gunz\nhn\HanReportForClient.lib"
+"\Users\Ho-Oh\Desktop\Gunz\Gunz 1.5 Repack by Jur13n #1 (Edited)\Source\Gunz\nhn\HanReportForClientD.lib"
+".\Release\CGLEncription.obj"
+".\Release\CStringTable.obj"
+".\Release\explorer.obj"
+".\Release\Log.obj"
+".\Release\NewApp.obj"
+".\Release\NewAppAboutBox.obj"
+".\Release\NewAppDlg.obj"
+".\Release\NewAppErrorDlg.obj"
+".\Release\NewAppLicenseConfirmDlg.obj"
+".\Release\NewAppUpdateCompleteDlg.obj"
+".\Release\NewAppUpdateConfirm.obj"
+".\Release\NewAppWarnVista.obj"
+".\Release\StdAfx.obj"
+".\Release\NewApp.res"
+".\Release\CDDB.obj"
+".\Release\CDDBAniBmp.obj"
+".\Release\CDDBButton.obj"
+".\Release\CDDBDialog.obj"
+".\Release\CSound.obj"
+".\Release\ZNHNAuth.obj"
+".\Release\ZNHNModule.obj"
+".\Release\ZNHNRegistInfo.obj"
+".\Release\ZFileTransfer.obj"
+".\Release\ZUpdate.obj"
+]
+Creating command line "link.exe @"c:\Users\Ho-Oh\Desktop\Gunz\Gunz 1.5 Repack by Jur13n #1 (Edited)\Source\ZLauncher\ZLauncher_2nd\CNewApp\Release\RSP000003.rsp""
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Performing Pre-Build Event...
+.\res\skin_brz\animation.bmp
+.\res\skin_brz\button.bmp
+.\res\skin_brz\button_start.bmp
+.\res\skin_brz\gunz_img.bmp
+.\res\skin_brz\skin_maindlg.bmp
+.\res\skin_brz\skin_popupdlg.bmp
+6 File(s) copied
+File not found - *.exe
+0 File(s) copied
+.\res\skin_brz\Backup Icon of The Old Brazil Launcher.ico
+.\res\skin_brz\icon_mainframe.ico
+2 File(s) copied
+.\res\skin_brz\string.txt
+1 File(s) copied
+Compiling...
+NewAppDlg.cpp
+NewAppDlg.cpp(1) : warning C4651: '/DLOCALE_NHNUSA' specified for precompiled header but not for current compile
+NewAppDlg.cpp(31) : warning C4005: 'STR_GUNZ_PROCESS_NAME' : macro redefinition
+        NewAppDlg.cpp(18) : see previous definition of 'STR_GUNZ_PROCESS_NAME'
+NewAppDlg.cpp(32) : warning C4005: 'STR_GUNZ_EXCUTE_FILENAME' : macro redefinition
+        NewAppDlg.cpp(19) : see previous definition of 'STR_GUNZ_EXCUTE_FILENAME'
+Linking...
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://c:\Users\Ho-Oh\Desktop\Gunz\Gunz 1.5 Repack by Jur13n #1 (Edited)\Source\ZLauncher\ZLauncher_2nd\CNewApp\Release\BuildLog.htm"
+NewApp - 0 error(s), 3 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>
